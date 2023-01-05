@@ -20,7 +20,7 @@ import (
 	"errors"
 	"strings"
 
-	"k8s.io/apimachinery/pkg/util/mergepatch"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/mergepatch"
 	openapi "k8s.io/kube-openapi/pkg/util/proto"
 )
 

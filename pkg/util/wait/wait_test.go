@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/runtime"
 	"k8s.io/utils/clock"
 	testingclock "k8s.io/utils/clock/testing"
 )

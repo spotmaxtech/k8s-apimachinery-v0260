@@ -19,7 +19,7 @@ package runtime
 import (
 	"sync"
 
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
 )
 
 type equivalentResourceRegistry struct {

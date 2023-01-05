@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	. "k8s.io/apimachinery/pkg/watch"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	. "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/watch"
 )
 
 type fakeDecoder struct {

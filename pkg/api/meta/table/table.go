@@ -19,10 +19,10 @@ package table
 import (
 	"time"
 
-	"k8s.io/apimachinery/pkg/api/meta"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/util/duration"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/meta"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/duration"
 )
 
 // MetaToTableRow converts a list or object into one or more table rows. The provided rowFn is invoked for

@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"k8s.io/apimachinery/pkg/util/httpstream"
-	"k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/httpstream"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/runtime"
 )
 
 const HeaderSpdy31 = "SPDY/3.1"

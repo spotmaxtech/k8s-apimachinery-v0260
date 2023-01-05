@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "k8s.io/apimachinery/pkg/watch"
+	. "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/watch"
 )
 
 func TestFilter(t *testing.T) {

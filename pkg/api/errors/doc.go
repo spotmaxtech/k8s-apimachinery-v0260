@@ -15,4 +15,4 @@ limitations under the License.
 */
 
 // Package errors provides detailed error types for api field validation.
-package errors // import "k8s.io/apimachinery/pkg/api/errors"
+package errors // import "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/errors"

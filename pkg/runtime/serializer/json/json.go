@@ -24,11 +24,11 @@ import (
 	kjson "sigs.k8s.io/json"
 	"sigs.k8s.io/yaml"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer/recognizer"
-	"k8s.io/apimachinery/pkg/util/framer"
-	utilyaml "k8s.io/apimachinery/pkg/util/yaml"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/serializer/recognizer"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/framer"
+	utilyaml "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/yaml"
 	"k8s.io/klog/v2"
 )
 

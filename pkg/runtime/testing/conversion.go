@@ -17,8 +17,8 @@ limitations under the License.
 package testing
 
 import (
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/conversion"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
 )
 
 func convertEmbeddedTestToEmbeddedTestExternal(in *EmbeddedTest, out *EmbeddedTestExternal, s conversion.Scope) error {

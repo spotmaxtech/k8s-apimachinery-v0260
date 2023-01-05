@@ -21,12 +21,12 @@ import (
 
 	"github.com/google/gofuzz"
 
-	apitesting "k8s.io/apimachinery/pkg/api/apitesting"
-	"k8s.io/apimachinery/pkg/api/apitesting/fuzzer"
-	"k8s.io/apimachinery/pkg/apis/testapigroup"
-	"k8s.io/apimachinery/pkg/apis/testapigroup/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	runtimeserializer "k8s.io/apimachinery/pkg/runtime/serializer"
+	apitesting "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/apitesting"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/apitesting/fuzzer"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/testapigroup"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/testapigroup/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	runtimeserializer "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/serializer"
 )
 
 // overrideMetaFuncs override some generic fuzzer funcs from k8s.io/apimachinery in order to have more realistic

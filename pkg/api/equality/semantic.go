@@ -17,11 +17,11 @@ limitations under the License.
 package equality
 
 import (
-	"k8s.io/apimachinery/pkg/api/resource"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/fields"
-	"k8s.io/apimachinery/pkg/labels"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/resource"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/conversion"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/fields"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/labels"
 )
 
 // Semantic can do semantic deep equality checks for api objects.

@@ -21,12 +21,12 @@ syntax = "proto2";
 
 package k8s.io.apimachinery.pkg.apis.testapigroup.v1;
 
-import "k8s.io/apimachinery/pkg/apis/meta/v1/generated.proto";
-import "k8s.io/apimachinery/pkg/runtime/generated.proto";
-import "k8s.io/apimachinery/pkg/runtime/schema/generated.proto";
+import "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1/generated.proto";
+import "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/generated.proto";
+import "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema/generated.proto";
 
 // Package-wide variables from generator "generated".
-option go_package = "k8s.io/apimachinery/pkg/apis/testapigroup/v1";
+option go_package = "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/testapigroup/v1";
 
 // Carp is a collection of containers, used as either input (create, update) or as output (list, get).
 message Carp {

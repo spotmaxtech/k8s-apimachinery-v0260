@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"k8s.io/apimachinery/pkg/util/validation/field"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/validation/field"
 	netutils "k8s.io/utils/net"
 )
 

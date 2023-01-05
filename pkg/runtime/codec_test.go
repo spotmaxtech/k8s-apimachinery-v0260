@@ -20,9 +20,9 @@ import (
 	"io"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	runtimetesting "k8s.io/apimachinery/pkg/runtime/testing"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	runtimetesting "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/testing"
 )
 
 func gv(group, version string) schema.GroupVersion {

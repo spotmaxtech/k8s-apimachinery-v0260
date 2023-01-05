@@ -15,4 +15,4 @@ limitations under the License.
 */
 
 // Package errors implements various utility functions and types around errors.
-package errors // import "k8s.io/apimachinery/pkg/util/errors"
+package errors // import "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/errors"

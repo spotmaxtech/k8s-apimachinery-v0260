@@ -19,8 +19,8 @@ package scheme
 import (
 	"testing"
 
-	"k8s.io/apimachinery/pkg/api/apitesting/roundtrip"
-	"k8s.io/apimachinery/pkg/apis/meta/fuzzer"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/apitesting/roundtrip"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/fuzzer"
 )
 
 func TestRoundTrip(t *testing.T) {

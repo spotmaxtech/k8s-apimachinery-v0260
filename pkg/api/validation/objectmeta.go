@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"strings"
 
-	apiequality "k8s.io/apimachinery/pkg/api/equality"
-	"k8s.io/apimachinery/pkg/api/meta"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	v1validation "k8s.io/apimachinery/pkg/apis/meta/v1/validation"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/apimachinery/pkg/util/validation"
-	"k8s.io/apimachinery/pkg/util/validation/field"
+	apiequality "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/equality"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/meta"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	v1validation "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1/validation"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/sets"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/validation"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/validation/field"
 )
 
 // FieldImmutableErrorMsg is a error message for field is immutable.

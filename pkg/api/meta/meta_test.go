@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"testing"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	metav1beta1 "k8s.io/apimachinery/pkg/apis/meta/v1beta1"
-	"k8s.io/apimachinery/pkg/util/diff"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	metav1beta1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1beta1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/diff"
 
 	fuzz "github.com/google/gofuzz"
 )

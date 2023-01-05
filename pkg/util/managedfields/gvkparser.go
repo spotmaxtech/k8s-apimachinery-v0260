@@ -19,7 +19,7 @@ package managedfields
 import (
 	"fmt"
 
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
 	"k8s.io/kube-openapi/pkg/schemaconv"
 	"k8s.io/kube-openapi/pkg/util/proto"
 	smdschema "sigs.k8s.io/structured-merge-diff/v4/schema"

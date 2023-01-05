@@ -24,8 +24,8 @@ import (
 	"net/http"
 	"net/url"
 
-	utilnet "k8s.io/apimachinery/pkg/util/net"
-	"k8s.io/apimachinery/third_party/forked/golang/netutil"
+	utilnet "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/net"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/third_party/forked/golang/netutil"
 	"k8s.io/klog/v2"
 )
 

@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	utiljson "k8s.io/apimachinery/pkg/util/json"
+	utiljson "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/json"
 )
 
 func TestVerbsMarshalJSON(t *testing.T) {

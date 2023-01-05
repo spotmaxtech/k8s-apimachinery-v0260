@@ -30,12 +30,12 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	apiequality "k8s.io/apimachinery/pkg/api/equality"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer/json"
-	"k8s.io/apimachinery/pkg/runtime/serializer/protobuf"
-	"k8s.io/apimachinery/pkg/util/sets"
+	apiequality "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/equality"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/serializer/json"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/serializer/protobuf"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/sets"
 )
 
 // CompatibilityTestOptions holds configuration for running a compatibility test using in-memory objects

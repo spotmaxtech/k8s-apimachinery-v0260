@@ -21,11 +21,11 @@ import (
 	"reflect"
 	"testing"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	testapigroupv1 "k8s.io/apimachinery/pkg/apis/testapigroup/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	runtimetesting "k8s.io/apimachinery/pkg/runtime/testing"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	testapigroupv1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/testapigroup/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	runtimetesting "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/testing"
 )
 
 func TestCacheableObject(t *testing.T) {

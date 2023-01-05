@@ -22,15 +22,15 @@ import (
 	"reflect"
 	"sync"
 
-	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1/unstructured"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
 	"k8s.io/klog/v2"
 )
 
 // NewDefaultingCodecForScheme is a convenience method for callers that are using a scheme.
 func NewDefaultingCodecForScheme(
-	// TODO: I should be a scheme interface?
+// TODO: I should be a scheme interface?
 	scheme *runtime.Scheme,
 	encoder runtime.Encoder,
 	decoder runtime.Decoder,

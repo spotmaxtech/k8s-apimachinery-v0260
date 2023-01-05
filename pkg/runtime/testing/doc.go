@@ -16,4 +16,4 @@ limitations under the License.
 
 // +k8s:deepcopy-gen=package
 
-package testing // import "k8s.io/apimachinery/pkg/runtime/testing"
+package testing // import "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/testing"

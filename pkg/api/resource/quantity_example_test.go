@@ -19,7 +19,7 @@ package resource_test
 import (
 	"fmt"
 
-	"k8s.io/apimachinery/pkg/api/resource"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/resource"
 )
 
 func ExampleFormat() {

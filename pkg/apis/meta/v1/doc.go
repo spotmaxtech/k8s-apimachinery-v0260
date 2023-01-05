@@ -21,4 +21,4 @@ limitations under the License.
 
 // +groupName=meta.k8s.io
 
-package v1 // import "k8s.io/apimachinery/pkg/apis/meta/v1"
+package v1 // import "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
